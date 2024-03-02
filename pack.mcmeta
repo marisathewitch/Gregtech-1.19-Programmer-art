@@ -1,6 +1,8 @@
 ﻿{
   "pack": {
-    "pack_format": 9,
+    "pack_format": 15,
+    "description": "9,15",
+
     "description": "Gregtech Programmer Art"
   }
 }
