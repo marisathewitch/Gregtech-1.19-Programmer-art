@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "gtceu:opv_battery_buffer_16x",
+  "variants": {
+    "": {
+      "model": {
+        "parent": "gtceu:block/machine/part/hull",
+        "textures": {
+          "bottom": "gtceu:block/casings/voltage/opv/bottom",
+          "side": "gtceu:block/casings/voltage/opv/side",
+          "top": "gtceu:block/casings/voltage/opv/top"
+        }
+      }
+    }
+  }
+}

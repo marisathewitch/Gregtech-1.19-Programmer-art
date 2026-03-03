@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "gtceu:uev_transformer_2a",
+  "variants": {
+    "transform_up=false": {
+      "model": {
+        "parent": "gtceu:block/machine/part/transformer_old",
+        "textures": {
+          "bottom": "gtceu:block/casings/voltage/uev/bottom",
+          "overlay_in_tinted": "gtceu:block/overlay/machine/overlay_energy_2a_in",
+          "overlay_out_tinted": "gtceu:block/overlay/machine/overlay_energy_8a_out",
+          "side": "gtceu:block/casings/voltage/uev/side",
+          "top": "gtceu:block/casings/voltage/uev/top"
+        }
+      }
+    },
+    "transform_up=true": {
+      "model": {
+        "parent": "gtceu:block/machine/part/transformer_old",
+        "textures": {
+          "bottom": "gtceu:block/casings/voltage/uev/bottom",
+          "overlay_in_tinted": "gtceu:block/overlay/machine/overlay_energy_2a_out",
+          "overlay_out_tinted": "gtceu:block/overlay/machine/overlay_energy_8a_in",
+          "side": "gtceu:block/casings/voltage/uev/side",
+          "top": "gtceu:block/casings/voltage/uev/top"
+        }
+      }
+    }
+  }
+}
